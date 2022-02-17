@@ -18,3 +18,9 @@ make shell
 ```
 
 To see more options, check the Makefile.
+
+Update the traffic config file with your specific credentials:
+
+```bash
+$HOME/.config/traffic/traffic.conf
+```
