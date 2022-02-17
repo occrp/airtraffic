@@ -1,5 +1,5 @@
 shell: init build
-	docker run --name flighttrack -it \
+	docker run --name airtraffic -it \
              --mount type=bind,source=$(AIRTRAFFIC_DIR)/scripts,target=/srv/scripts \
              --mount type=bind,source=$(AIRTRAFFIC_DIR)/data,target=/srv/data \
              --entrypoint /bin/bash \
